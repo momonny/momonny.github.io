@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Dada;
+  src: url(font/Dada\ is\ the\ new\ Black.ttf);
+}
+@font-face {
+  font-family: NT SEAWAVE;
+  src: url(font/NT\ SEAWAVE\ \(standart\)\ -\ PERSONAL\ USE.otf);
+}
+
+h1 {
+  font-family: 'dada', "sans";
+  text-align: center;
+  
+}
+.header {
+  font-family: 'dada', "sans";
+  background-color: #b2b89b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: BLACK;
+}
+nav {
+  background-color: rgb(248, 196, 84);
+  padding: 30px;
+  color: BLACK;
+  font-family: 'NT SEAWAVE', "sans";
+}
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.elemento_menu {
+  padding: 10px;
+  }
+
+.immaginemenu{
+  height:40px;
+}
+
+#menuu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.elemento_menuu {
+  padding: 10px;
+  transform: rotate(180deg);
+
+}
+.immaginemenuu{
+  height:40px;
+}
+
+.footerrev{
+  transform: rotate(180deg);
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 16px;
+  
+}
+p{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  
+}
+#manifestimg{
+  align-items: center;
+}
+
+.settima {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sesta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.quinta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.quarta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  width: 100%;
+}
+
+
+.column {
+  flex: 32%;
+  max-width: 32%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.pippo {
+  overflow: hidden;
+  transition: transform 0.25s;
+  border-radius: 5px; 
+}
+
+.pippo:hover {
+  transform: scale(1.03)
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  p {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+
+
